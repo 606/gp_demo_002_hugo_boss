@@ -1,0 +1,24 @@
+---
+title: "Getting Started with AsciiDoc"
+date: 2026-02-01
+draft: false
+---
+
+== Introduction
+
+AsciiDoc is a lightweight markup language for writing documentation, articles, and books.
+
+=== Why AsciiDoc?
+
+* More powerful than Markdown
+* Better support for technical documentation
+* Native support for tables, admonitions, and includes
+
+=== Code Example
+
+[source,bash]
+----
+hugo server -D
+----
+
+TIP: Run with `-D` to include draft posts.

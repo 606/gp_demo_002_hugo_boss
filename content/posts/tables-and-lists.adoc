@@ -1,0 +1,29 @@
+---
+title: "Tables and Lists in AsciiDoc"
+date: 2026-01-30
+draft: false
+---
+
+== Working with Tables
+
+.Sample Data Table
+|===
+| Name | Language | Year
+
+| Hugo | Go | 2013
+| Jekyll | Ruby | 2008
+| Eleventy | JavaScript | 2018
+|===
+
+== Nested Lists
+
+. First item
+.. Sub-item A
+.. Sub-item B
+. Second item
+. Third item
+
+== Definition Lists
+
+Hugo:: Static site generator written in Go
+AsciiDoc:: Lightweight markup language

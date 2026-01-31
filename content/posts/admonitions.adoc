@@ -1,0 +1,27 @@
+---
+title: "Admonitions and Callouts"
+date: 2026-01-25
+draft: false
+---
+
+== Admonition Blocks
+
+NOTE: This is a note admonition.
+
+TIP: This is a tip for better productivity.
+
+IMPORTANT: Pay attention to this important information.
+
+WARNING: Be careful with this operation.
+
+CAUTION: This action cannot be undone.
+
+== Callouts in Code
+
+[source,yaml]
+----
+baseURL: '/' # <1>
+title: 'My Site' # <2>
+----
+<1> The base URL of your site
+<2> The title shown in browser tabs

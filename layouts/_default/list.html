@@ -1,8 +1,7 @@
 {{ define "main" }}
-<h1>{{ .Site.Title }}</h1>
-<h2>Posts</h2>
+<h1>{{ .Title }}</h1>
 <ul>
-  {{ range .Site.RegularPages }}
+  {{ range .Pages }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <time>{{ .Date.Format "2006-01-02" }}</time>

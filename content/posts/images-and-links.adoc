@@ -1,0 +1,33 @@
+---
+title: "Images and Links"
+date: 2026-01-22
+draft: false
+---
+
+== Links
+
+=== External Links
+
+Visit the https://gohugo.io[Hugo website] for documentation.
+
+=== Internal References
+
+See <<_images>> below for image syntax.
+
+== Images
+
+To include an image:
+
+[source,asciidoc]
+----
+image::path/to/image.png[Alt text]
+----
+
+=== Image with Attributes
+
+[source,asciidoc]
+----
+image::logo.png[Logo,200,100]
+----
+
+This creates an image with width 200 and height 100.

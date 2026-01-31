@@ -1,0 +1,34 @@
+---
+title: "Code Blocks and Syntax Highlighting"
+date: 2026-01-28
+draft: false
+---
+
+== Code Examples
+
+=== Python
+
+[source,python]
+----
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("World"))
+----
+
+=== Go
+
+[source,go]
+----
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, Hugo!")
+}
+----
+
+=== Inline Code
+
+Use `hugo new posts/my-post.adoc` to create a new post.
